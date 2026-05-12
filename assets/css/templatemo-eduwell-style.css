@@ -723,21 +723,31 @@ section.main-banner {
 .main-banner .header-text::after {
   position: absolute;
   background-image: url(../images/banner-left-dec.png);
-  width: 214px;
+  width: 250px;
   height: 429px;
   content: '';
   left: 0;
-  bottom: -300px;
-  z-index: 1;
+  bottom: -330px;
+  z-index: 0 ;
 }
 
-.main-banner .header-text h6 {
+.main-banner .header-text h2 {
   position: relative;
   z-index: 2;
   font-size: 17px;
   font-weight: 500;
   text-transform: capitalize;
-  color: #777777;;
+  color: #dc8cdb;;
+}
+
+.main-banner .header-text h4 {
+  position: relative;
+  z-index: 2;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #7033c0 !important;
+  margin-bottom: 7px;
 }
 
 .main-banner .header-text h2 {
